@@ -31,7 +31,7 @@ const onClickForm = () => {
     <div class="labels">
       <form @submit.prevent>
         <label>
-          <div>Number</div>
+          <div>Value</div>
           <input
             :value="value"
             @input="(event) => value = (event?.target as HTMLInputElement).value"
